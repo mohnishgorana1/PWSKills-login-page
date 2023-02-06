@@ -29,7 +29,10 @@
                     <h2>Welcome to </h2>  
                     <h1>PW SKILLS</h1>
                     <p>Please enter your phone number to login/register.</p>
-                    <input type="tel" name="mobile-no" id="mobile-no">
+                    <form action="">
+                        <input type="tel" name="mobile-no" id="mobile-no" pattern="[0-9]{10}" maxlength="10"  placeholder="Enter 10 digit Mobile number" required>
+                    </form>
+                    
                     <br>
                     <button id="login-btn">Get OTP</button>
                  
@@ -51,5 +54,7 @@
         </main>
 
     </div>
+
+  
 </body>
 </html>
