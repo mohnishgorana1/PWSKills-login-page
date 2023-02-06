@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFEFF;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    width: 100vw;
+    /* border:1px solid red; */
+    padding-top: 20px;
+    padding-left:65px;
+}
+
+
+.main-content{
+    /* border:0.5px solid black; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #7e7d7d;
+    background-color: #F8FBFC;
+    width: 70vw;
+    height: 75vh;;
+    /* border:1px solid #12199e; */
+    margin:28px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+
+
+
+}
+.left-section{
+    /* border:1px solid red; */
+    display: flex;
+    align-items: stretch;
+    
+    
+    
+
+}
+#signin-card{
+    width: 30vw;
+    height: 75vh;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+    
+
+}
+
+.right-section{
+    width: 40vw;
+    height: 70vh;
+
+    padding: 10px;;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* top-right */
+.top-right{
+    padding: 10px;;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-right h2{
+    font-weight: 400;
+    font-size:32px;
+
+}
+.top-right h1{
+    font-size:35px;
+   
+}
+.top-right p{
+    margin:10px;
+    font-size:15px;
+    font-weight: 400;
+}
+.top-right input{
+    width: 30vw;
+    padding: 15px 10px;
+    border: 1px solid #969696;
+    border-radius: 8px;
+    margin-top:30px;
+}
+.top-right button{
+    background-color:#5A4BDA;
+    color: aliceblue;
+    border:none;
+    font-size: 15px;
+    font-weight: bold;
+    width:18vw;
+    padding:18px 40px;
+    margin: 2px auto;;
+    border-radius: 10px;
+
+
+}
+
+
+
+.divider{
+    padding: 10px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#divi-text{
+    padding: 8px;
+}
+.bottom-right{
+    padding: 10px;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#google-btn{
+    background-color: #fff;
+    padding:10px 20px;
+    border-radius:10px;
+    border:0.5px solid #b7b6b6;
+    font-weight: 600;
+    font-size:15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#google-img{
+    margin-left:10px;
+
+   
+}
+button:hover{
+    cursor: pointer;
+}
+#logo:hover{
+    cursor: pointer;
+}
